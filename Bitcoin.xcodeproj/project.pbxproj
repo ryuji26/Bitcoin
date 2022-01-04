@@ -16,6 +16,8 @@
 		4616EE0827841B0E00FB388E /* BitcoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616EE0727841B0E00FB388E /* BitcoinTests.swift */; };
 		4616EE1227841B0E00FB388E /* BitcoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616EE1127841B0E00FB388E /* BitcoinUITests.swift */; };
 		4616EE1427841B0E00FB388E /* BitcoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616EE1327841B0E00FB388E /* BitcoinUITestsLaunchTests.swift */; };
+		4616EE212784357B00FB388E /* setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4616EE202784357B00FB388E /* setting.storyboard */; };
+		4616EE232784359700FB388E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616EE222784359700FB388E /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4616EE0D27841B0E00FB388E /* BitcoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4616EE1127841B0E00FB388E /* BitcoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinUITests.swift; sourceTree = "<group>"; };
 		4616EE1327841B0E00FB388E /* BitcoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4616EE202784357B00FB388E /* setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = setting.storyboard; sourceTree = "<group>"; };
+		4616EE222784359700FB388E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				4616EDF027841B0300FB388E /* AppDelegate.swift */,
 				4616EDF227841B0300FB388E /* SceneDelegate.swift */,
 				4616EDF427841B0300FB388E /* ViewController.swift */,
+				4616EE222784359700FB388E /* SettingViewController.swift */,
 				4616EDF627841B0300FB388E /* Main.storyboard */,
+				4616EE202784357B00FB388E /* setting.storyboard */,
 				4616EDF927841B0D00FB388E /* Assets.xcassets */,
 				4616EDFB27841B0D00FB388E /* LaunchScreen.storyboard */,
 				4616EDFE27841B0D00FB388E /* Info.plist */,
@@ -234,6 +240,7 @@
 				4616EDFD27841B0D00FB388E /* LaunchScreen.storyboard in Resources */,
 				4616EDFA27841B0D00FB388E /* Assets.xcassets in Resources */,
 				4616EDF827841B0300FB388E /* Main.storyboard in Resources */,
+				4616EE212784357B00FB388E /* setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 				4616EDF527841B0300FB388E /* ViewController.swift in Sources */,
 				4616EDF127841B0300FB388E /* AppDelegate.swift in Sources */,
 				4616EDF327841B0300FB388E /* SceneDelegate.swift in Sources */,
+				4616EE232784359700FB388E /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
