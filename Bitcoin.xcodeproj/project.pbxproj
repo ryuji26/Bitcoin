@@ -18,6 +18,8 @@
 		4616EE1427841B0E00FB388E /* BitcoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616EE1327841B0E00FB388E /* BitcoinUITestsLaunchTests.swift */; };
 		4616EE212784357B00FB388E /* setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4616EE202784357B00FB388E /* setting.storyboard */; };
 		4616EE232784359700FB388E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616EE222784359700FB388E /* SettingViewController.swift */; };
+		46D9FAC827853A54001B1158 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9FAC727853A54001B1158 /* Entity.swift */; };
+		46D9FACA27853AC4001B1158 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9FAC927853AC4001B1158 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		4616EE1327841B0E00FB388E /* BitcoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4616EE202784357B00FB388E /* setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = setting.storyboard; sourceTree = "<group>"; };
 		4616EE222784359700FB388E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		46D9FAC727853A54001B1158 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		46D9FAC927853AC4001B1158 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				4616EE222784359700FB388E /* SettingViewController.swift */,
 				4616EDF627841B0300FB388E /* Main.storyboard */,
 				4616EE202784357B00FB388E /* setting.storyboard */,
+				46D9FAC727853A54001B1158 /* Entity.swift */,
+				46D9FAC927853AC4001B1158 /* API.swift */,
 				4616EDF927841B0D00FB388E /* Assets.xcassets */,
 				4616EDFB27841B0D00FB388E /* LaunchScreen.storyboard */,
 				4616EDFE27841B0D00FB388E /* Info.plist */,
@@ -266,8 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4616EDF527841B0300FB388E /* ViewController.swift in Sources */,
+				46D9FAC827853A54001B1158 /* Entity.swift in Sources */,
 				4616EDF127841B0300FB388E /* AppDelegate.swift in Sources */,
 				4616EDF327841B0300FB388E /* SceneDelegate.swift in Sources */,
+				46D9FACA27853AC4001B1158 /* API.swift in Sources */,
 				4616EE232784359700FB388E /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
