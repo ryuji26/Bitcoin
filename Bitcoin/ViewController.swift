@@ -8,10 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var nowPrice: UILabel!
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func goToSetting(_ sender: Any) {

@@ -114,6 +114,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="nowPrice" destination="XH2-T1-jKM" id="aie-gp-Uwg"/>
                         <segue destination="BE9-OC-Dv1" kind="show" identifier="toSetting" id="tPA-Tm-lCI"/>
                     </connections>
                 </viewController>

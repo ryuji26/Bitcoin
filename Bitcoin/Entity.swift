@@ -2,12 +2,11 @@
 //  Entity.swift
 //  Bitcoin
 //
-//  Created by 髙橋　竜治 on 2022/01/05.
+//  Created by 髙橋　竜治 on 2022/01/06.
 //
 
-struct BTCInfo: Codable {
+import Foundation
 
-    struct Total: Codable {
-        var price: Int
-    }
+struct Price: Codable {
+    let last: Int
 }

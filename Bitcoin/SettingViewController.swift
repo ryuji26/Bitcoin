@@ -15,6 +15,8 @@ class SettingViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
     }
 
     @IBAction func saveButton(_ sender: UIBarButtonItem) {
